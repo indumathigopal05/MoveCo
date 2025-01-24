@@ -1,7 +1,6 @@
 // import React, { useState } from "react";
 import Slider from "react-slick";
 import {
-  Flex,
   Box,
   Text,
   Image,

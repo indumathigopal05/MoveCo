@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Text, Flex, Input, Button } from "@chakra-ui/react";
-import Footer from "../Components/Footer";
+
 import GetMovingForm from "../Components/GetMovingForm"
 const Services = () => {
   return (

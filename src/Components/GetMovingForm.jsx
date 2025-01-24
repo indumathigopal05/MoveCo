@@ -1,16 +1,13 @@
 import React, { useState } from "react";
 import {
   Box,
-  Flex,
   InputGroup,
   InputLeftElement,
   InputRightElement,
   Input,
   FormControl,
-  FormLabel,
   FormErrorMessage,
   Button,
-  Heading,
   Text,
   Icon,
 } from "@chakra-ui/react";
@@ -80,16 +77,14 @@ const GetMovingForm = () => {
   return (
     <Box
       // bg="#f9f9f9"
-       p={5}
+      p={5}
       // borderRadius="md"
       // boxShadow="lg"
       // maxW="500px"
       // mx="auto"
     >
-
       <form onSubmit={handleSubmit}>
         <FormControl isInvalid={error.firstName} mb={4}>
-        
           <InputGroup>
             <InputLeftElement
               children={<Icon as={FaUser} color="gray.400" />}
@@ -106,7 +101,6 @@ const GetMovingForm = () => {
         </FormControl>
 
         <FormControl isInvalid={error.lastName} mb={4}>
-          
           <InputGroup>
             <InputLeftElement
               children={<Icon as={FaUser} color="gray.400" />}
@@ -123,7 +117,6 @@ const GetMovingForm = () => {
         </FormControl>
 
         <FormControl isInvalid={error.dob} mb={4}>
-          
           <InputGroup>
             <InputLeftElement
               children={<Icon as={FaCalendarAlt} color="gray.400" />}
@@ -138,9 +131,7 @@ const GetMovingForm = () => {
           <FormErrorMessage>{error.dob}</FormErrorMessage>
         </FormControl>
 
-
         <FormControl isInvalid={error.phone} mb={4}>
-          
           <InputGroup>
             <InputLeftElement
               children={<Icon as={FaPhone} color="gray.400" />}
@@ -158,7 +149,6 @@ const GetMovingForm = () => {
         </FormControl>
 
         <FormControl isInvalid={error.email} mb={4}>
-          
           <InputGroup>
             <InputLeftElement
               children={<Icon as={FaEnvelope} color="gray.400" />}

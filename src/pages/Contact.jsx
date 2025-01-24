@@ -56,6 +56,7 @@ const Contact = () => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835.9394529774379!2d-97.00336053546414!3d33.062842389722675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c31ff0889f581%3A0xb7f130061f7cfa81!2sMoveCo.net%20LLC!5e0!3m2!1sen!2sin!4v1695690218411!5m2!1sen!2sin"
               width="600"
+              title="Moveco"
               height="310"
               frameborder="0"
               //style="border:"
