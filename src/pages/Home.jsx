@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, useBreakpointValue } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 // import GetMovingQuote from "../Components/GetMovingQuote";
 //import image1 from "../assets/image1.jpg";
 import VideoReviews from "../Components/VideoReviews";
